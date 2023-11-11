@@ -1,6 +1,8 @@
+/* CSS Stylesheet for Website */
+
+/* Global Resets and Font Definition */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 
-/* Reset styles */
 * {
     margin: 0;
     padding: 0;
@@ -15,57 +17,64 @@ body, h1, h2, h3, h4, h5, h6, p, a {
     line-height: 32px;
 }
 
-/* Main container style */
+/* Main Container */
 .container {
     padding: 4em 10%;
     max-width: 640px;
-    margin: 0 auto; /* Center the content horizontally */
+    margin: 0 auto; /* Center content horizontally */
 }
 
-/* Header styles */
+/* Header Styles */
 .header {
     text-align: left;
     margin-bottom: 2em;
 }
 
 .header h1 {
-    font-size: 2em;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 0.5em;
 }
 
-/* Post header styles */
+/* Description Style - Text color set to #000 with 60% opacity */
+.header p {
+    color: rgba(0, 0, 0, 0.6); /* Set color to #000 at 60% opacity */
+}
+
+/* Post Header Styles */
 .post-header h1 {
-    font-size: 2em;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 0.5em;
+    line-height: 105%; /* Adjust line height for headers */
 }
 
 .post-header .meta {
-    color: rgba(0, 0, 0, 0.33);
+    color: rgba(0, 0, 0, 0.6); /* Set publish date color to #000 at 60% opacity */
     margin-bottom: 1em;
 }
 
-/* Post content styles */
+/* Post Content Styles */
 .post-content {
-    text-align: center; /* Center the content */
+    text-align: left; /* Align content to the left */
     margin-bottom: 2em;
 }
 
-/* Subheader within the post content */
+/* Subheader within Post Content */
 .post-content h2 {
-    font-size: 1.5em;
+    font-size: 20px;
     margin: 2em 0 1em;
+    line-height: 105%; /* Adjust line height for subheaders */
 }
 
-/* Footer styles */
+/* Footer Styles */
 .footer {
     padding: 1em 10%;
     position: fixed;
-    bottom: 50px;
+    bottom: 0;
     left: 0;
     width: 100%;
-    text-align: left; /* Left-align the footer content */
+    text-align: left; /* Align footer content to the left */
     background: none;
 }
 
@@ -73,22 +82,21 @@ body, h1, h2, h3, h4, h5, h6, p, a {
     color: #000;
     font-weight: 400;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 145%; /* Adjust line height for paragraphs */
 }
 
+/* Link Styles */
 .footer a {
-    color: #000;
+    color: #000; /* Set link color to #000 */
     margin: 15px 0;
-    text-decoration: underline;
-    display: block;
+    text-decoration: none; /* Remove underline from links */
 }
 
 .footer a:hover {
-    color: #000;
-    text-decoration: underline;
+    color: #0B64FE; /* Change link color to blue on hover */
 }
 
-/* Responsive adjustments */
+/* Responsive Adjustments */
 @media (max-width: 768px) {
     .container {
         padding: 4em 5%;
