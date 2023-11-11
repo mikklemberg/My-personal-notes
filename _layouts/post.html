@@ -7,18 +7,15 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-    
-    <div class="container">
-        <!-- Static Header Section -->
-            <header class="header">
-                <img src="https://res.cloudinary.com/read-cv/image/upload/c_fill,h_92,w_92/dpr_2.0/v1/1/profilePhotos/8Gud87CNIBUOBFdgx9CVhQcj2zh2/b62a2c9d-dfd8-4b82-9868-36981a21e66d.jpg" alt="Mikk Lemberg" style="width:75px; height:75px; border-radius:2px;">
-                <p>Mikk Lemberg</p>
-            </header>
+    <header class="header">
+        <img src="https://res.cloudinary.com/read-cv/image/upload/c_fill,h_92,w_92/dpr_2.0/v1/1/profilePhotos/8Gud87CNIBUOBFdgx9CVhQcj2zh2/b62a2c9d-dfd8-4b82-9868-36981a21e66d.jpg" alt="Mikk Lemberg" style="width:75px; height:75px; border-radius:2px;">
+        <!-- The name is now styled by CSS, no inline style needed -->
+        <p>Mikk Lemberg</p>
+    </header>
 
+    <div class="container">
         <article class="post">
-            <!-- Dynamic Post Content -->
             <header class="post-header">
-                <p class="meta">{{ page.date | date: "%B %-d, %Y" }}</p>
                 <h1>{{ page.title }}</h1>
             </header>
             <div class="post-content">
@@ -26,20 +23,16 @@
             </div>
             <!-- Back Button -->
             <div class="back-to-posts">
-                <a href="{{ '/test' | relative_url }}">⃪ Back to all posts</a>
+                <a href="{{ '/test' | relative_url }}">Back to all posts</a>
             </div>
         </article>
-    
+    </div>
 
     <!-- Footer Section -->
     <footer class="footer">
         <p>Links</p>
         <a href="https://mikklemberg.ee">Professional resume</a>
         <a href="https://posts.cv/mikk">Posts.cv</a>
-        <a href="mailto:mikklemberg@icloud.com">mikklemberg@icloud.com</a>
-    </footer>
-</div>
+        <a href="mailto:mikklemberg@icloud.com">mikklemberg@icloud.com</
 </body>
 </html>
-
-
