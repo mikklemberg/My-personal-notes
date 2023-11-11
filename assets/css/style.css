@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
+/* Reset basic elements to use Inter font */
+body, h1, h2, h3, h4, h5, h6, p, a {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.24px;
+    margin: 0;
+    padding: 0;
+}
+
 /* Main container style */
 .container {
     display: flex;
     flex-direction: column;
-    align-items: flex-start; /* Changed to align to the left */
-    padding: 100px 0px;
+    align-items: flex-start; /* Align to the left */
+    padding: 100px 15%; /* Padding for left and right */
     gap: 50px;
     width: 100%;
     max-width: 1440px;
@@ -13,95 +21,77 @@
     background: #FFFFFF;
 }
 
-/* Header styles */
+/* Header styles - Assuming this is for the blog home page */
 .blog-header {
-    text-align: left; /* Aligned to left */
-    width: 650px;
+    text-align: left; /* Align to the left */
 }
 
 .blog-header h1 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400; /* Regular weight */
+    font-weight: 400; /* Regular weight for Inter font */
     font-size: 25px;
     line-height: 26px;
     color: #000000;
-    letter-spacing: -0.24px; /* Letter spacing */
 }
 
-.blog-header p {
-    font-family: 'Inter', sans-serif;
+/* Individual post header styles - Assuming this is for the post page */
+.post-header {
+    text-align: left; /* Align to the left */
+}
+
+.post-header h1 {
+    font-weight: 400; /* Regular weight for Inter font */
+    font-size: 30px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom: 10px; /* Space below the post title */
+}
+
+.post-header .meta {
+    color: rgba(0, 0, 0, 0.33); /* Lighter color for the date and other meta info */
     font-size: 18px;
-    line-height: 26px;
-    color: rgba(0, 0, 0, 0.6);
-    letter-spacing: -0.24px; /* Letter spacing */
+    margin-bottom: 20px; /* Space below the meta information */
 }
 
-/* Posts styles */
-.posts {
-    width: 100%; /* Full width for alignment */
-}
-
-.posts .post {
+/* Post content styles */
+.post-content {
+    text-align: left; /* Align to the left */
     width: 100%;
-    border-bottom: 1px solid #eaeaea;
-    padding-bottom: 30px;
-    margin-bottom: 30px;
+    line-height: 1.6; /* Adjust line height as needed */
+    color: #000000; /* Text color */
 }
 
-.posts .post h2 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400; /* Regular weight */
-    font-size: 18px;
-    line-height: 19px;
-    color: #000000;
-    margin: 0;
-    letter-spacing: -0.24px; /* Letter spacing */
-}
-
-.posts .post h2 a {
-    text-decoration: none;
-    color: #000000;
-    letter-spacing: -0.24px; /* Letter spacing */
-}
-
-.posts .post time {
-    font-family: 'Inter', sans-serif;
-    font-weight: 400; /* Regular weight */
-    font-size: 18px;
-    line-height: 19px;
-    color: #000000; /* Updated color */
-    opacity: 0.33; /* 33% opacity for the color */
-    letter-spacing: -0.24px; /* Letter spacing */
-    display: block;
+/* Subheader within the post content */
+h2 {
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 20px; /* Space below subheaders */
 }
 
 /* Footer styles */
 .blog-footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%; /* Full width across the page */
-    gap: 10px;
-    padding: 25px 0px 50px;
-    background: #FAFAFA;
+    width: 100%; /* Full width */
+    text-align: center; /* Center the text */
+    padding: 25px 0; /* Padding top and bottom */
+    background: #FAFAFA; /* Background color */
 }
 
 .blog-footer a {
-    font-family: 'Inter', sans-serif;
-    font-size: 18px;
-    line-height: 19px;
     color: rgba(0, 0, 0, 0.6);
-    text-decoration: underline;
-    letter-spacing: -0.24px; /* Letter spacing */
+    text-decoration: none; /* No underline by default */
+}
+
+.blog-footer a:hover {
+    text-decoration: underline; /* Underline on hover */
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .container {
-        padding: 50px 20px;
+        padding: 50px 5%; /* Reduced padding on smaller screens */
     }
 
-    .blog-header, .posts, .blog-footer {
-        width: 100%;
+    .blog-header, .post-header, .post-content, .blog-footer {
+        width: 100%; /* Full width on smaller screens */
+        text-align: left; /* Align to the left */
     }
 }
