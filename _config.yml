@@ -1,5 +1,5 @@
 title: My Jekyll Blog
 description: >- # this means to ignore newlines until "baseurl:"
   This is my personal blog where I share my thoughts and experiences.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "https://mikklemberg.github.io/test/" # the subpath of your site, e.g. /blog
+url: "https://mikklemberg.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
