@@ -23,6 +23,7 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 /* Header Styles */
 .header {
     text-align: start;
+    margin-bottom:50px;
 }
 
 .header h1, .post-header h1 {
@@ -31,6 +32,10 @@ body, h1, h2, h3, h4, h5, h6, p, a {
     color: #000;
     line-height: 105%;
 }
+
+.bio p {
+    color: rgba(0, 0, 0, 0.6);
+    }
 
 /* Main page post titles */
 .posts h2 a {
@@ -43,8 +48,7 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .posts time {
-    color: #000;
-    opacity: 0.33;
+    color: rgba(0, 0, 0, 0.33);
 }
 
 /* Spacing between blog posts on main page */
@@ -74,13 +78,28 @@ body, h1, h2, h3, h4, h5, h6, p, a {
     margin-bottom: 75px; /* Space before the footer */
 }
 
-/* Footer Styles */
-.footer {
-    background-color: #fff;
-    position: relative;
+.back-to-posts a{
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
 }
 
-.footer p, .footer a {
+.back-to-posts a:hover {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+.footer {
+    display: block;
+    position: relative;
+    margin-top: 75px;
+}
+
+.footer p {
+    color: rgba(0, 0, 0, 0.33);
+}
+
+.footer a {
     color: rgba(0, 0, 0, 0.6);
     text-decoration: underline;
 }
