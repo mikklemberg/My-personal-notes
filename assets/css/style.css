@@ -1,0 +1,98 @@
+/* Main container style */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px;
+    gap: 50px;
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+/* Header styles */
+.blog-header {
+    text-align: center;
+    width: 650px;
+}
+
+.blog-header h1 {
+    font-family: 'SF Pro Text', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.blog-header p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* Posts styles */
+.posts {
+    width: 650px;
+}
+
+.posts .post {
+    width: 100%;
+    border-bottom: 1px solid #eaeaea; /* Assuming there is a light border based on the screenshot */
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+.posts .post h2 {
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 18px;
+    line-height: 19px;
+    color: #000000;
+    margin: 0;
+}
+
+.posts .post h2 a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.posts .post time {
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 18px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.33);
+    display: block; /* Or inline-block, depending on desired layout */
+}
+
+/* Footer styles */
+.blog-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 650px;
+    gap: 10px;
+    padding: 25px 0px 50px;
+    background: #FAFAFA;
+}
+
+.blog-footer a {
+    font-family: 'SF Pro Text', sans-serif;
+    font-size: 18px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container {
+        padding: 50px 20px;
+    }
+
+    .blog-header, .posts, .blog-footer {
+        width: 100%;
+    }
+}
+
+/* Add any additional styles for other elements as necessary */
