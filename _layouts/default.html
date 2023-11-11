@@ -17,21 +17,13 @@
         </header>
 
         <!-- Dynamic Posts Section -->
-        <section class="posts">
-            <!-- Example Post 1 -->
-            <article class="post">
-                <h2><a href="#">Title of Post 1</a></h2>
-                <time datetime="2023-11-11">November 11, 2023</time>
-            </article>
-
-            <!-- Example Post 2 -->
-            <article class="post">
-                <h2><a href="#">Title of Post 2</a></h2>
-                <time datetime="2023-11-12">November 12, 2023</time>
-            </article>
-
-            <!-- Add more posts as needed -->
-        </section>
+        <article class="post">
+            <h2>{{ page.title }}</h2>
+            <p>{{ page.date | date_to_string }}</p>
+            <div class="post-content">
+                {{ content }}
+            </div>
+        </article>
 
         <!-- Footer Section -->
         <footer class="footer">
