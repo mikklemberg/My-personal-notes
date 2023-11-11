@@ -1,33 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mikk Lemberg's Blog</title>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="https://mikklemberg.github.io/test/assets/css/style.css">
 </head>
-<body>
-    <header class="header">
-        <h1>Mikk Lemberg</h1>
-        <p>As a (systems) designer and avid cyclist, I have found myself wondering about broader aspects for improving urban environment and ensuring everyone has equal opportunities for a fulfilling life.</p>
-    </header>
 
+<body>
     <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <h1>Mikk Lemberg</h1>
+            <p>As a (systems) designer and avid cyclist, I have found myself wondering about broader aspects for improving urban environment and ensuring everyone has equal opportunities for a fulfilling life.</p>
+        </header>
+
         <!-- Dynamic Posts Section -->
         <section class="posts">
-            {% for post in site.posts %}
+            <!-- Example Post 1 -->
             <article class="post">
-                <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+                <h2><a href="#">Title of Post 1</a></h2>
+                <time datetime="2023-11-11">November 11, 2023</time>
             </article>
-            {% endfor %}
-        </section>
-    </div>
 
-    <footer class="footer">
-        <a href="https://mikklemberg.ee">Professional portfolio</a>
-        <a href="httsp://posts.cv/mikk">Posts.cv</a>
-        <a href="mailto:mikklemberg@icloud.com">mikklemberg@icloud.com</a>
-    </footer>
+            <!-- Example Post 2 -->
+            <article class="post">
+                <h2><a href="#">Title of Post 2</a></h2>
+                <time datetime="2023-11-12">November 12, 2023</time>
+            </article>
+
+            <!-- Add more posts as needed -->
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <p>Links</p>
+            <a href="https://mikklemberg.ee">Professional resume</a>
+            <a href="https://posts.cv/mikk">Posts.cv</a>
+            <a href="mailto:mikklemberg@icloud.com">mikklemberg@icloud.com</a>
+        </footer>
+    </div>
 </body>
+
 </html>
