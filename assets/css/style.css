@@ -37,9 +37,13 @@ body, h1, h2, h3, h4, h5, h6, p, a {
     color: rgba(0, 0, 0, 0.6);
 }
 
+header {
+    margin-bottom: 50px;
+}
+
 /* Posts Section */
 .posts .post + .post {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 /* Post Titles and Dates */
