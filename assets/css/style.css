@@ -1,11 +1,10 @@
-/* Add this at the top of your CSS file */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
 /* Main container style */
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start; /* Changed to align to the left */
     padding: 100px 0px;
     gap: 50px;
     width: 100%;
@@ -16,28 +15,30 @@
 
 /* Header styles */
 .blog-header {
-    text-align: center;
+    text-align: left; /* Aligned to left */
     width: 650px;
 }
 
 .blog-header h1 {
-    font-family: 'Inter', sans-serif; /* Updated font-family */
-    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; /* Regular weight */
     font-size: 25px;
     line-height: 26px;
     color: #000000;
+    letter-spacing: -0.24px; /* Letter spacing */
 }
 
 .blog-header p {
-    font-family: 'Inter', sans-serif; /* Already updated */
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     line-height: 26px;
     color: rgba(0, 0, 0, 0.6);
+    letter-spacing: -0.24px; /* Letter spacing */
 }
 
 /* Posts styles */
 .posts {
-    width: 650px;
+    width: 100%; /* Full width for alignment */
 }
 
 .posts .post {
@@ -48,23 +49,29 @@
 }
 
 .posts .post h2 {
-    font-family: 'Inter', sans-serif; /* Updated font-family */
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; /* Regular weight */
     font-size: 18px;
     line-height: 19px;
     color: #000000;
     margin: 0;
+    letter-spacing: -0.24px; /* Letter spacing */
 }
 
 .posts .post h2 a {
     text-decoration: none;
     color: #000000;
+    letter-spacing: -0.24px; /* Letter spacing */
 }
 
 .posts .post time {
-    font-family: 'Inter', sans-serif; /* Updated font-family */
+    font-family: 'Inter', sans-serif;
+    font-weight: 400; /* Regular weight */
     font-size: 18px;
     line-height: 19px;
-    color: rgba(0, 0, 0, 0.33);
+    color: #000000; /* Updated color */
+    opacity: 0.33; /* 33% opacity for the color */
+    letter-spacing: -0.24px; /* Letter spacing */
     display: block;
 }
 
@@ -73,17 +80,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%; /* Full width across the page */
     gap: 10px;
     padding: 25px 0px 50px;
     background: #FAFAFA;
 }
 
 .blog-footer a {
-    font-family: 'Inter', sans-serif; /* Updated font-family */
+    font-family: 'Inter', sans-serif;
     font-size: 18px;
     line-height: 19px;
     color: rgba(0, 0, 0, 0.6);
     text-decoration: underline;
+    letter-spacing: -0.24px; /* Letter spacing */
 }
 
 /* Responsive adjustments */
@@ -96,5 +105,3 @@
         width: 100%;
     }
 }
-
-/* Add any additional styles for other elements as necessary */
