@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mikk Lemberg's Blog</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+
+<body>
+    <div class="container">
+        <header class="blog-header">
+            <h1>Mikk Lemberg</h1>
+            <p>My stream of thoughts, links and snippets — meant to be read casually. I tend to ask "what if" rather than pointing out what is wrong.</p>
+        </header>
+
+        <!-- Dynamic Posts Section -->
+        <section class="posts">
+            {% for post in site.posts %}
+            <article class="post">
+                <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+            </article>
+            {% endfor %}
+        </section>
+
+        <footer class="blog-footer">
+            <a href="/links">Links</a>
+            <a href="/resume">Resume</a>
+            <a href="/posts.cv">Posts.cv</a>
+            <a href="mailto:mikklemberg@icloud.com">mikklemberg@icloud.com</a>
+        </footer>
+    </div>
+</body>
+
+</html>
