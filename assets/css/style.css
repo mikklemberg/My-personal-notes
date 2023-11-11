@@ -22,13 +22,14 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 
 /* Header Styles */
 .header {
-    text-align: center;
+    text-align: start;
 }
 
 .header h1, .post-header h1 {
     font-size: 32px;
     font-weight: 400;
     color: #000;
+    line-height: 105%;
 }
 
 /* Main page post titles */
@@ -76,7 +77,6 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 /* Footer Styles */
 .footer {
     background-color: #fff;
-    padding: 1em 10%;
     position: relative;
 }
 
