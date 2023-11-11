@@ -28,65 +28,67 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .header h1 {
-    font-size: 20px;
+    font-size: 32px;
     font-weight: 400;
-    line-height: 105%;
+    line-height: 145%;
 }
 
 .header p {
-    color: rgba(0, 0, 0, 0.6); /* Set text color to black with 60% opacity */
+    color: rgba(0, 0, 0, 0.6);
 }
 
 /* Posts Section */
 .posts .post {
-    margin-top: 50px; /* Add space between blog posts */
+    margin-top: 50px;
 }
 
 /* Post Titles and Dates */
-.posts h2 {
-    margin: 0; /* Remove default margin from headings */
-}
 
 .posts h2 a {
-    color: #000; /* Set link color to black */
-    text-decoration: none; /* Remove underline from links */
+    color: #000;
+    text-decoration: none;
 }
 
 .posts h2 a:hover {
-    color: #0B64FE; /* Set link color to blue on hover */
+    color: #0B64FE;
 }
 
 .posts time {
-    display: block; /* Make the time element display as a block for spacing */
-    color: rgba(0, 0, 0, 0.6); /* Set text color to black with 60% opacity */
-    margin-top: 5px; /* Add spacing between title and date */
+    display: block;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 5px;
 }
 
 /* Footer Styles */
 .footer {
     padding: 1em 10%;
-    position: absolute; /* Change from fixed to absolute */
-    bottom: 0;
-    left: 0;
+    position: relative;
+    bottom: auto;
+    left: auto;
     width: 100%;
     text-align: left;
-    background-color: #fff; /* Set a background color to ensure readability */
+    background-color: #fff;
+    margin-top: 2em;
 }
 
 .footer p {
-    color: rgba(0, 0, 0, 0.6); /* Set text color to black with 60% opacity */
-    margin-bottom: 1em; /* Add space below the 'Links' title */
+    color: rgba(0, 0, 0, 0.33);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 105%;
+    margin-bottom: 5px;
 }
 
 .footer a {
-    color: rgba(0, 0, 0, 0.6); /* Set link color to black with 60% opacity */
-    text-decoration: underline; /* Ensure links are underlined */
-    display: block; /* Stack links vertically */
-    margin-bottom: 0.5em; /* Add space between links */
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5em;
 }
 
 .footer a:hover {
-    text-decoration: underline; /* Maintain underline on hover */
+    color: #000;
+    text-decoration: underline;
 }
 
 /* Responsive Adjustments */
