@@ -1,35 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ page.title }}</title>
+    <title>{{ page.title }} - Mikk Lemberg's Blog</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-
 <body>
-    <div class="container">
-        <header class="blog-header">
-            <h1><a href="{{ '/' | relative_url }}">Mikk Lemberg</a></h1>
-        </header>
+    <header class="header">
+        <h1><a href="{{ '/' | relative_url }}">Mikk Lemberg</a></h1>
+    </header>
 
+    <div class="container">
         <article class="post">
-            <h2>{{ page.title }}</h2>
-            <p>{{ page.date | date_to_string }}</p>
+            <header class="post-header">
+                <h1>{{ page.title }}</h1>
+                <p class="meta">{{ page.date | date: "%B %-d, %Y" }}</p>
+            </header>
             <div class="post-content">
                 {{ content }}
             </div>
         </article>
-
-        <footer class="blog-footer">
-            <a href="{{ '/links' | relative_url }}">Links</a>
-            <a href="{{ '/resume' | relative_url }}">Resume</a>
-            <a href="{{ '/posts.cv' | relative_url }}">Posts.cv</a>
-            <a href="mailto:mikklemberg@icloud.com">mikklemberg@icloud.com</a>
-        </footer>
     </div>
+
+    <footer class="footer">
+        <a href="https://mikklemberg.ee">Professional portfolio</a>
+        <a href="httsp://posts.cv/mikk">Posts.cv</a>
+        <a href="mailto:mikklemberg@icloud.com">mikklemberg@icloud.com</a>
+    </footer>
 </body>
-
 </html>
-
