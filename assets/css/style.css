@@ -10,90 +10,91 @@
 body, h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.24px;
-    font-weight: 400; /* Text weight set to 400 */
-    font-size: 20px; /* Text size set to 20px */
-    line-height: 32px; /* Line height set to 32px */
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
 }
 
 /* Main container style */
 .container {
-    padding: 4em 10%; /* Adjust the padding as needed */
-    max-width: 640px; /* Maximum page width set to 640px */
+    padding: 4em 10%;
+    max-width: 640px;
+    margin: 0 auto; /* Center the content horizontally */
 }
 
 /* Header styles */
 .header {
-    text-align: left; /* Align to the left */
-    margin-bottom: 2em; /* Space below the header */
+    text-align: left;
+    margin-bottom: 2em;
 }
 
 .header h1 {
-    font-size: 2em; /* Adjust the size as needed */
-    font-weight: 400; /* Text weight set to 400 */
-    margin-bottom: 0.5em; /* Space below the site title */
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 0.5em;
 }
 
 /* Post header styles */
 .post-header h1 {
-    font-size: 2em; /* Adjust the size as needed */
-    font-weight: 400; /* Text weight set to 400 */
-    margin-bottom: 0.5em; /* Space below the post title */
+    font-size: 2em;
+    font-weight: 400;
+    margin-bottom: 0.5em;
 }
 
 .post-header .meta {
-    color: rgba(0, 0, 0, 0.33); /* Lighter color for the date */
-    margin-bottom: 1em; /* Space below the meta information */
+    color: rgba(0, 0, 0, 0.33);
+    margin-bottom: 1em;
 }
 
 /* Post content styles */
 .post-content {
-    text-align: left; /* Align to the left */
-    margin-bottom: 2em; /* Space below the post */
+    text-align: center; /* Center the content */
+    margin-bottom: 2em;
 }
 
 /* Subheader within the post content */
 .post-content h2 {
-    font-size: 1.5em; /* Adjust the size as needed */
-    margin: 2em 0 1em; /* Space above and below subheaders */
+    font-size: 1.5em;
+    margin: 2em 0 1em;
 }
 
 /* Footer styles */
 .footer {
-    padding: 1em 10%; /* Padding around the footer content */
-    position: fixed; /* Fixed at the bottom */
-    bottom: 50px; /* Space from the bottom of the page */
+    padding: 1em 10%;
+    position: fixed;
+    bottom: 50px;
     left: 0;
-    width: 100%; /* Full width */
-    text-align: center; /* Center the text */
-    background: none; /* No background color for the footer */
+    width: 100%;
+    text-align: left; /* Left-align the footer content */
+    background: none;
 }
 
 .footer p {
-    color: #000; /* Text color set to #000 */
-    font-weight: 400; /* Text weight set to 400 */
-    font-size: 20px; /* Text size set to 20px */
-    line-height: 32px; /* Line height set to 32px */
+    color: #000;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
 }
 
 .footer a {
-    color: #000; /* Text color set to #000 */
-    margin: 15px 0; /* Space between links */
-    text-decoration: underline; /* Underline links */
-    display: block; /* Display each link on a separate row */
+    color: #000;
+    margin: 15px 0;
+    text-decoration: underline;
+    display: block;
 }
 
 .footer a:hover {
-    color: #000; /* Hover color set to #000 */
-    text-decoration: underline; /* Underline on hover */
+    color: #000;
+    text-decoration: underline;
 }
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
     .container {
-        padding: 4em 5%; /* Reduced padding on smaller screens */
+        padding: 4em 5%;
     }
 
     .header, .post-header, .post-content, .footer {
-        text-align: left; /* Align to the left */
+        text-align: left;
     }
 }
