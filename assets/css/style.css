@@ -9,100 +9,82 @@
 body, h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.24px;
-    font-weight: 400;
     font-size: 20px;
     line-height: 145%;
 }
 
 /* Main Container */
 .container {
-    padding: 4em 10%;
+    padding: 100px 10% 0;
     max-width: 66ch;
+    margin: 0 auto;
 }
 
 /* Header Styles */
 .header {
-    text-align: left;
-    padding-top: 4em; /* Aligns with container padding for top margin */
-    margin-bottom: 2em; /* Space between header and content */
+    text-align: center;
 }
 
-.header img {
-    width: 75px;
-    height: 75px;
-    border-radius: 2px;
-}
-
-.header p {
-    color: #000;
-    opacity: 0.33;
-}
-
-/* Post Header */
-.post-header .meta {
-    color: #000;
-    opacity: 0.33;
-    margin-bottom: 50px; /* Space between post header and dynamic content */
-}
-
-.post-header h1 {
+.header h1, .post-header h1 {
     font-size: 32px;
     font-weight: 400;
     color: #000;
-    margin-bottom: 1em; /* Space below post title */
 }
 
-/* Post Content */
-.post-content h2 {
-    font-size: 20px;
-    font-weight: 600;
+/* Main page post titles */
+.posts h2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.posts h2 a:hover {
+    color: #1F51FF; /* Blue color on hover */
+}
+
+.posts time {
+    color: #000;
+    opacity: 0.33;
+}
+
+/* Spacing between blog posts on main page */
+.posts .post + .post {
+    margin-top: 25px;
+}
+
+/* Post page styles */
+.post-header .meta {
+    display: none; /* Remove date from post pages */
 }
 
 .post-content p {
-    font-size: 20px;
-    line-height: 145%;
-    margin-bottom: 25px; /* Spacing between paragraphs */
+    margin-bottom: 25px;
 }
 
-/* Back to Posts Button */
+.post-content a {
+    text-decoration: underline;
+}
+
+.post-content a:hover {
+    color: #1F51FF; /* Blue color on hover */
+}
+
 .back-to-posts {
-    margin-top: 30px; /* Space after the blog content */
-}
-
-.back-to-posts a {
-    color: rgba(0, 0, 0, 0.33);
-    text-decoration: underline;
-    display: inline-block;
+    margin-top: 40px;
     margin-bottom: 75px; /* Space before the footer */
-}
-
-.back-to-posts a:hover {
-    text-decoration: underline;
-    color: rgba(0, 0, 0, 0.6);
 }
 
 /* Footer Styles */
 .footer {
-    text-align: left;
+    background-color: #fff;
+    padding: 1em 10%;
     position: relative;
-    margin-top: 75px;
 }
 
-.footer p {
-    color: rgba(0, 0, 0, 0.33);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 145%;
-    margin-bottom: 0.5em;
-}
-
-.footer a {
+.footer p, .footer a {
     color: rgba(0, 0, 0, 0.6);
     text-decoration: underline;
-    display: block;   
 }
 
 .footer a:hover {
     color: #000;
-    text-decoration: underline;
 }
