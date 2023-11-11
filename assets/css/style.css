@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 * {
     margin: 0;
@@ -24,54 +24,73 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 /* Header Styles */
 .header {
     text-align: left;
-    margin-bottom: 2em;
+    padding-top: 4em; /* Aligns with container padding for top margin */
+    margin-bottom: 2em; /* Space between header and content */
 }
 
-.header h1 {
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 145%;
+.header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
 }
 
 .header p {
-    color: rgba(0, 0, 0, 0.6);
+    color: #000;
+    opacity: 0.33;
 }
 
-header {
-    margin-bottom: 50px;
+/* Post Header */
+.post-header .meta {
+    color: #000;
+    opacity: 0.33;
+    margin-bottom: 50px; /* Space between post header and dynamic content */
 }
 
-/* Posts Section */
-.posts .post + .post {
-    margin-top: 20px;
+.post-header h1 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 1em; /* Space below post title */
 }
 
-/* Post Titles and Dates */
+/* Post Content */
+.post-content h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 25px 0; /* Spacing between paragraphs */
+}
 
-.posts h2 a {
+.post-content p {
+    font-size: 20px;
+    line-height: 145%;
+    margin-bottom: 25px; /* Spacing between paragraphs */
+}
+
+/* Back to Posts Button */
+.back-to-posts {
+    margin-top: 30px; /* Space after the blog content */
+}
+
+.back-to-posts a {
     color: #000;
     text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 2px;
+    display: inline-block;
+    margin-bottom: 75px; /* Space before the footer */
 }
 
-.posts h2 a:hover {
-    color: #0B64FE;
-}
-
-.posts time {
-    display: block;
-    color: rgba(0, 0, 0, 0.6);
-    margin-top: 5px;
+.back-to-posts a:hover {
+    text-decoration: underline;
 }
 
 /* Footer Styles */
 .footer {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    width: 100%;
     text-align: left;
     background-color: #fff;
-    margin-top: 100px;
+    padding: 1em 10%;
+    position: relative; /* Ensure footer is in the normal document flow */
+    margin-top: 75px; /* Space from the back button */
 }
 
 .footer p {
@@ -85,6 +104,7 @@ header {
     color: rgba(0, 0, 0, 0.6);
     text-decoration: underline;
     display: block;
+    margin-bottom: 0.5em;
 }
 
 .footer a:hover {
