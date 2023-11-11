@@ -1,43 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mikk Lemberg's Blog</title>
-    <link rel="stylesheet" href="https://mikklemberg.github.io/test/assets/css/style.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
-
 <body>
-    <div class="container">
-        <header class="blog-header">
-            <h1>Mikk Lemberg</h1>
-            <p>As a (systems) designer and avid cyclist, I have found myself wondering about broader aspects for improving urban environment and ensuring everyone has equal opportunities for a fulfilling life.</p>
-        </header>
+    <header class="header">
+        <h1>Mikk Lemberg</h1>
+        <p>As a (systems) designer and avid cyclist, I have found myself wondering about broader aspects for improving urban environment and ensuring everyone has equal opportunities for a fulfilling life.</p>
+    </header>
 
+    <div class="container">
         <!-- Dynamic Posts Section -->
         <section class="posts">
-          {% for post in site.posts %}
-<article class="post">
-    <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-</article>
-{% endfor %}
+            {% for post in site.posts %}
+            <article class="post">
+                <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+            </article>
+            {% endfor %}
         </section>
-
-
-
-
-
-
-        
-        <footer class="blog-footer">
-            <p>Links</p>
-            <a href="https://mikklemberg.ee">Professional portfolio</a>
-            <a href="httsp://posts.cv/mikk">Posts.cv</a>
-            <a href="mailto:mikklemberg@icloud.com">mikklemberg@icloud.com</a>
-        </footer>
     </div>
-</body>
 
+    <footer class="footer">
+        <a href="https://mikklemberg.ee">Professional portfolio</a>
+        <a href="httsp://posts.cv/mikk">Posts.cv</a>
+        <a href="mailto:mikklemberg@icloud.com">mikklemberg@icloud.com</a>
+    </footer>
+</body>
 </html>
