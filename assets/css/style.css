@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
 
 /* Reset styles */
 * {
@@ -10,86 +10,70 @@
 body, h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.24px;
+    font-weight: 400; /* Text weight set to 400 */
 }
 
 /* Main container style */
 .container {
     padding: 4em 10%; /* Adjust the padding as needed */
-    background: #FFFFFF;
 }
 
 /* Header styles */
 .header {
-    padding-top: 100px; /* Padding from the top */
     text-align: left; /* Align to the left */
     margin-bottom: 2em; /* Space below the header */
 }
 
 .header h1 {
-    color: #000;
-    font-size: 24px; /* Adjust the size as needed */
-    font-weight: 400; /* Regular weight */
-    line-height: 32px;
+    font-size: 2em; /* Adjust the size as needed */
+    font-weight: 400; /* Text weight set to 400 */
     margin-bottom: 0.5em; /* Space below the site title */
 }
 
-.header p {
-    color: rgba(0, 0, 0, 0.6); /* Description color */
-    font-size: 24px;
-    line-height: 32px;
+/* Post header styles */
+.post-header h1 {
+    font-size: 2em; /* Adjust the size as needed */
+    font-weight: 400; /* Text weight set to 400 */
+    margin-bottom: 0.5em; /* Space below the post title */
 }
 
-/* Dynamic Posts Section */
-.posts {
-    margin-top: 100px; /* Space from header to posts */
-    margin-bottom: 150px; /* Space from posts to footer */
+.post-header .meta {
+    color: rgba(0, 0, 0, 0.33); /* Lighter color for the date */
+    margin-bottom: 1em; /* Space below the meta information */
 }
 
-.post {
-    margin-bottom: 50px; /* Space between each article */
+/* Post content styles */
+.post-content {
+    text-align: left; /* Align to the left */
+    margin-bottom: 2em; /* Space below the post */
 }
 
-.post h2 {
-    color: #000;
-    margin-bottom: 15px; /* Space between title and publish date */
-}
-
-.post h2 a {
-    text-decoration: none; /* No underline by default */
-    color: #000;
-}
-
-.post h2 a:hover {
-    text-decoration: underline; /* Underline on hover */
-    color: #0B64FE; /* Change color to blue on hover */
-}
-
-.post time {
-    color: rgba(0, 0, 0, 0.33); /* Publish date color */
+/* Subheader within the post content */
+.post-content h2 {
+    font-size: 1.5em; /* Adjust the size as needed */
+    margin: 2em 0 1em; /* Space above and below subheaders */
 }
 
 /* Footer styles */
 .footer {
-    text-align: left;
-    padding: 50px 0 50px; /* Padding around the footer content */
-    background: #FAFAFA; /* Light grey background */
-}
-
-.footer p {
-    color: rgba(0, 0, 0, 0.33);
-    margin-bottom: 20px; /* Space between the header and links */
+    padding: 1em 10%; /* Padding around the footer content */
+    position: fixed; /* Fixed at the bottom */
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    text-align: center; /* Center the text */
+    background: none; /* No background color for the footer */
 }
 
 .footer a {
-    color: rgba(0, 0, 0, 0.6);
-    text-decoration: underline;
-    display: block; /* Each link on a new line */
-    margin-bottom: 10px; /* Spacing between links */
+    color: #000; /* Text color set to #000 */
+    margin: 0 0.5em; /* Space between links */
+    text-decoration: underline; /* Underline links */
 }
 
 .footer a:hover {
-    color: #000; /* Link color on hover */
-    text-decoration: none; /* No underline on hover */
+    color: #000; /* Hover color set to #000 */
+    text-decoration: underline; /* Underline on hover */
 }
 
 /* Responsive adjustments */
@@ -98,7 +82,7 @@ body, h1, h2, h3, h4, h5, h6, p, a {
         padding: 4em 5%; /* Reduced padding on smaller screens */
     }
 
-    .header, .posts, .footer {
+    .header, .post-header, .post-content, .footer {
         text-align: left; /* Align to the left */
     }
 }
