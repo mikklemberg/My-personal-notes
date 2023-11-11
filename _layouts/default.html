@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mikk Lemberg's Blog</title>
-    <link rel="stylesheet" href="https://mikklemberg.github.io/test/assets/css/style.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
 </head>
 
 <body>
@@ -20,7 +20,7 @@
         <section class="posts">
             {% for post in site.posts %}
             <article class="post">
-                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
                 <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
             </article>
             {% endfor %}
@@ -29,9 +29,9 @@
         <!-- Footer Section -->
         <footer class="footer">
             <p>Links</p>
-            <p></p><a href="https://mikklemberg.ee">Professional resume</a></p>
-            <p><a href="https://posts.cv/mikk">Posts.cv</a></p>
-            <p><a href="mailto:mikklemberg@icloud.com">mikklemberg@icloud.com</a></p>
+            <a href="{{ '/resume' | prepend: site.baseurl }}">Professional resume</a>
+            <a href="{{ '/posts' | prepend: site.baseurl }}">Posts.cv</a>
+            <a href="mailto:mikklemberg@icloud.com">mikklemberg@icloud.com</a>
         </footer>
     </div>
 </body>
