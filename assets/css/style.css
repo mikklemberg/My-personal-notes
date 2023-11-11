@@ -11,15 +11,12 @@ body, h1, h2, h3, h4, h5, h6, p, a {
     letter-spacing: -0.24px;
     font-weight: 400;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 145%;
 }
 
 /* Main Container */
 .container {
-    padding: 4em 10%;
-    /* Adjusted to a minimum width of 379px to fit character limit */
-    min-width: 379px;
-    max-width: 640px; /* Adjust max-width as necessary to fit content */
+    max-width: 66ch; /* Adjust max-width as necessary to fit content */
     margin: 0 auto; /* Center content horizontally */
 }
 
@@ -32,7 +29,7 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 .header h1 {
     font-size: 20px;
     font-weight: 400;
-    margin-bottom: 0.5em;
+    line-height: 105%;
 }
 
 .header p {
@@ -47,11 +44,11 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 /* Post Titles and Dates */
 .posts h2 a {
     color: #000;
-    text-decoration: none; /* Remove underline from post titles */
+    text-decoration: none;
 }
 
 .posts h2 a:hover {
-    color: #0B64FE; /* Change title to blue on hover */
+    color: #0B64FE;
 }
 
 .posts time {
@@ -69,30 +66,18 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .footer p {
-    color: #000;
+    color: rgba(0, 0, 0, 0.33);
     font-weight: 400;
     font-size: 20px;
-    line-height: 145%;
+    line-height: 105%;
 }
 
 .footer a {
-    color: #000;
-    display: block; /* Display links in a block to stack them */
-    margin: 5px 0; /* Add margin between links */
-    text-decoration: none; /* Remove underline from links */
+    color:  rgba(0, 0, 0, 0.6);
+    text-decoration: undereline;
 }
 
 .footer a:hover {
     text-decoration: underline; /* Underline links on hover */
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-    .container {
-        padding: 4em 5%;
-    }
-
-    .header, .footer {
-        text-align: left;
-    }
-}
