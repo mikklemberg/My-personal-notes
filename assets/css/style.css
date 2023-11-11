@@ -38,7 +38,7 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 }
 
 /* Posts Section */
-.posts .post {
+.posts .post + .post {
     margin-top: 50px;
 }
 
@@ -67,7 +67,7 @@ body, h1, h2, h3, h4, h5, h6, p, a {
     width: 100%;
     text-align: left;
     background-color: #fff;
-    margin-top: 2em;
+    margin-top: 150px;
 }
 
 .footer p {
