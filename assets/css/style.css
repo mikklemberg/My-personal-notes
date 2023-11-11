@@ -11,11 +11,14 @@ body, h1, h2, h3, h4, h5, h6, p, a {
     font-family: 'Inter', sans-serif;
     letter-spacing: -0.24px;
     font-weight: 400; /* Text weight set to 400 */
+    font-size: 20px; /* Text size set to 20px */
+    line-height: 32px; /* Line height set to 32px */
 }
 
 /* Main container style */
 .container {
     padding: 4em 10%; /* Adjust the padding as needed */
+    max-width: 640px; /* Maximum page width set to 640px */
 }
 
 /* Header styles */
@@ -58,17 +61,25 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 .footer {
     padding: 1em 10%; /* Padding around the footer content */
     position: fixed; /* Fixed at the bottom */
-    bottom: 0;
+    bottom: 50px; /* Space from the bottom of the page */
     left: 0;
     width: 100%; /* Full width */
     text-align: center; /* Center the text */
     background: none; /* No background color for the footer */
 }
 
+.footer p {
+    color: #000; /* Text color set to #000 */
+    font-weight: 400; /* Text weight set to 400 */
+    font-size: 20px; /* Text size set to 20px */
+    line-height: 32px; /* Line height set to 32px */
+}
+
 .footer a {
     color: #000; /* Text color set to #000 */
-    margin: 0 0.5em; /* Space between links */
+    margin: 15px 0; /* Space between links */
     text-decoration: underline; /* Underline links */
+    display: block; /* Display each link on a separate row */
 }
 
 .footer a:hover {
