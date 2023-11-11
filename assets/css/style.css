@@ -34,10 +34,6 @@ body, h1, h2, h3, h4, h5, h6, p, a {
     margin-bottom: 50px;
 }
 
-.bio p {
-    color: rgba(0, 0, 0, 0.6);
-    }
-
 /* Main page post titles */
 .posts h2 a {
     color: #000;
