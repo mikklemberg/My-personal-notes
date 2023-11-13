@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html {
     font-size: 62.5%; /* base font size to 10px for easier calculation of rem units */
 }
@@ -9,9 +15,6 @@ body {
     font-size: 2rem; /* base font size to 20px */
     line-height: 1.45;
     letter-spacing: -0.024rem;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     background: #fff;
     color: #333;
 }
@@ -27,6 +30,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
+    margin-bottom: 1rem; /* Adjusted bottom margin */
 }
 
 p {
@@ -45,18 +49,22 @@ a:hover {
 
 .container {
     width: 100%;
-    max-width: 64ch;
+    max-width: 66rem;
     margin: 0 auto;
     padding: 10rem 1rem;
 }
 
 .header, .footer {
-    text-align: left;
-    margin-bottom: 5rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
 }
 
 .posts .post + .post {
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
+}
+
+.posts h2 + time {
+    margin-top: 0.5rem; /* Reduced space between title and date */
 }
 
 .footer {
@@ -75,6 +83,6 @@ a:hover {
     }
 
     .container {
-        padding: 5rem 5%;
+        padding: 5rem 2rem;
     }
 }
