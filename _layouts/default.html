@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mikk Lemberg's Blog</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: site.baseurl }}">
 </head>
-
 <body>
     <div class="container">
-        <!-- Header Section -->
         <header class="header">
-            <p>Mikk Lemberg</p>
-            <p style="color: rgba(0, 0, 0, 0.33");">As a (systems) designer and avid cyclist, I have found myself wondering about broader aspects for improving urban environment and ensuring everyone has equal opportunities for a fulfilling life.</p>
+            <h1>Mikk Lemberg</h1>
+            <p>As a (systems) designer and avid cyclist, I have found myself wondering about broader aspects for improving urban environment and ensuring everyone has equal opportunities for a fulfilling life.</p>
         </header>
-
-        <!-- Dynamic Posts Section -->
         <section class="posts">
             {% for post in site.posts %}
             <article class="post">
@@ -25,15 +20,12 @@
             </article>
             {% endfor %}
         </section>
-
-        <!-- Footer Section -->
         <footer class="footer">
             <p>Links</p>
-            <p><a href="https://mikklemberg.ee">Professional resume</a><p>
-            <p><a href="https://posts.cv/mikk">Posts.cv</a><p>
-            <p><a href="mailto:mikklemberg@icloud.com">mikklemberg@icloud.com</a><p>
+            <a href="https://mikklemberg.ee">Professional resume</a>
+            <a href="https://posts.cv/mikk">Posts.cv</a>
+            <a href="mailto:mikklemberg@icloud.com">mikklemberg@icloud.com</a>
         </footer>
     </div>
 </body>
-
 </html>
