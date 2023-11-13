@@ -55,7 +55,7 @@ a:hover {
 }
 
 .header, .footer {
-    text-align: center;
+    text-align: left;
     margin-bottom: 2.5rem;
 }
 
@@ -64,7 +64,7 @@ a:hover {
 }
 
 .posts h2 + time {
-    margin-top: 0.5rem; /* Reduced space between title and date */
+    margin-top: 0.2rem; /* Reduced space between title and date */
 }
 
 .footer {
