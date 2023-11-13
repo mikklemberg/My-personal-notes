@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,11 +7,18 @@
 }
 
 body, h1, h2, h3, h4, h5, h6, p, a {
-    font-family: sans-serif;
-    letter-spacing: 0;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.24px;
+    font-weight: 400; /* Ensure body text is 400 */
     font-size: calc(17.85px + 7.45 * ((100vw - 320px) / 704));
     line-height: 145%;
 }
+
+/* Add specific font-weight for bold text */
+b, strong {
+    font-weight: 500; /* Medium weight for bold text */
+}
+
 
 /* Main Container */
 .container {
@@ -54,6 +63,10 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 /* Post page styles */
 .post-header .meta {
     display: none; /* Remove date from post pages */
+}
+
+.post-content {
+margin-top: 50px;
 }
 
 .post-content p {
