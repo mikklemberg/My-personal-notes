@@ -30,7 +30,7 @@ h1 {
 
 h2 {
     font-size: 2rem;
-    margin-bottom: 1rem; /* Adjusted bottom margin */
+    margin-bottom: 0rem; /* Adjusted bottom margin */
 }
 
 p {
