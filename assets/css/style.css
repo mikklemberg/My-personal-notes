@@ -6,7 +6,7 @@
 
 body, h1, h2, h3, h4, h5, h6, p, a {
     font-family: sans-serif;
-    letter-spacing: -0.1rem;
+    letter-spacing: 0;
     font-size: calc(17.85px + 7.45 * ((100vw - 320px) / 704));
     line-height: 145%;
 }
