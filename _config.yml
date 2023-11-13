@@ -1,7 +1,7 @@
 title: My Jekyll Blog
 description: >- # this means to ignore newlines until "baseurl:"
   This is my personal blog where I share my thoughts and experiences.
-baseurl: "/test" # the subpath of your site, e.g., /blog
+baseurl: "/my-personal-notes" # the subpath of your site, e.g., /blog
 url: "https://mikklemberg.github.io" # the base hostname & protocol for your site
 permalink: /:year/:month/:day/:title.html
 
