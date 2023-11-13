@@ -1,14 +1,7 @@
-# My Jekyll Blog
+# Mikk Lemberg's Blog
 
-This is my personal blog created with Jekyll.
+Welcome to the repository for Mikk Lemberg's personal blog.
 
-## Local Development
+## Overview
 
-To run this site locally, you'll need to follow these steps:
-
-1. Install Jekyll and Bundler.
-2. Clone this repository.
-3. Run `bundle install` to install dependencies.
-4. Run `bundle exec jekyll serve` to start the local server.
-
-Visit `http://localhost:4000` to view the site.
+This blog is powered by [Jekyll](https://jekyllrb.com/), a static site generator that's perfect for personal, project, or organization sites. It's designed to be minimal, fast, and easy to navigate.
