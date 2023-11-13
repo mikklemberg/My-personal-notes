@@ -1,117 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
 
-* {
+html {
+    font-size: 62.5%; /* base font size to 10px for easier calculation of rem units */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem; /* base font size to 20px */
+    line-height: 1.45;
+    letter-spacing: -0.024rem;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: #fff;
+    color: #333;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, a {
-    font-family: 'Inter', sans-serif;
-    letter-spacing: -0.24px;
-    font-weight: 400; /* Ensure body text is 400 */
-    font-size: calc(17.85px + 7.45 * ((100vw - 320px) / 704));
-    line-height: 145%;
+h1, h2 {
+    font-weight: 500;
+    margin: 0 0 2rem;
 }
 
-/* Add specific font-weight for bold text */
-b, strong {
-    font-weight: 500; /* Medium weight for bold text */
+h1 {
+    font-size: 3.2rem;
 }
 
+h2 {
+    font-size: 2rem;
+}
 
-/* Main Container */
+p {
+    margin: 0 0 2.5rem;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1F51FF;
+}
+
 .container {
-    padding: 100px 5% 75px;
-    max-width: 64ch;
+    width: 100%;
+    max-width: 66rem;
     margin: 0 auto;
+    padding: 10rem 1rem;
 }
 
-/* Header Styles */
-.header {
-    text-align: start;
-    margin-bottom:50px;
+.header, .footer {
+    text-align: center;
+    margin-bottom: 2.5rem;
 }
 
-.header h1, .post-header h1 {
-    font-size: calc(17.85px + 10.45 * ((100vw - 320px) / 704));
-    font-weight: 400;
-    color: #000;
-    line-height: 105%;
-    margin-bottom: 50px;
-}
-
-/* Main page post titles */
-.posts h2 a {
-    color: #000;
-    text-decoration: none;
-}
-
-.posts h2 a:hover {
-    color: #1F51FF; /* Blue color on hover */
-}
-
-.posts time {
-    color: rgba(0, 0, 0, 0.33);
-}
-
-/* Spacing between blog posts on main page */
 .posts .post + .post {
-    margin-top: 25px;
+    margin-top: 2.5rem;
 }
 
-/* Post page styles */
-.post-header .meta {
-    display: none; /* Remove date from post pages */
-}
-
-.post-content {
-margin-top: 50px;
-}
-
-.post-content p {
-    margin-bottom: 25px;
-}
-
-.post-content a {
-    text-decoration: underline;
-}
-
-.post-content a:hover {
-    color: #1F51FF; /* Blue color on hover */
-}
-
-.back-to-posts {
-    margin-top: 40px;
-    margin-bottom: 75px; /* Space before the footer */
-}
-
-.back-to-posts a{
-    color: rgba(0, 0, 0, 0.6);
-    text-decoration: none;
-}
-
-.back-to-posts a:hover {
-    color: rgba(0, 0, 0, 0.6);
-    text-decoration: underline;
-}
-
-/* Footer Styles */
 .footer {
-    display: block;
-    position: relative;
-    margin-top: 75px;
-}
-
-.footer p {
-    color: rgba(0, 0, 0, 0.33);
+    margin-top: 7.5rem;
+    padding: 2rem 0;
 }
 
 .footer a {
-    color: rgba(0, 0, 0, 0.6);
+    display: block;
     text-decoration: underline;
 }
 
-.footer a:hover {
-    color: #000;
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2.8rem;
+    }
+
+    .container {
+        padding: 5rem 2rem;
+    }
 }
