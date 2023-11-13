@@ -45,14 +45,14 @@ a:hover {
 
 .container {
     width: 100%;
-    max-width: 66rem;
+    max-width: 64ch;
     margin: 0 auto;
     padding: 10rem 1rem;
 }
 
 .header, .footer {
-    text-align: center;
-    margin-bottom: 2.5rem;
+    text-align: left;
+    margin-bottom: 5rem;
 }
 
 .posts .post + .post {
@@ -75,6 +75,6 @@ a:hover {
     }
 
     .container {
-        padding: 5rem 2rem;
+        padding: 5rem 95%;
     }
 }
