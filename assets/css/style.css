@@ -89,15 +89,14 @@ a:hover {
 
 /* Adjusted margin for 'Back to all posts' link */
 .back-to-posts {
-    margin-top: 4rem; /* This value doubles the space */
+    margin-top: 8rem; /* This value doubles the space */
 }
 
 .post-content blockquote {
     border-left: 4px solid rgba(0, 0, 0, 0.36);
     background-color: #fafafa;
     margin: 1.5rem 0;
-    padding: 1rem;
-    font-style: italic;
+    padding: 2rem;
     color: #333;
 }
 
