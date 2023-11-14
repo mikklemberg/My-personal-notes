@@ -87,6 +87,10 @@ a:hover {
     text-decoration: underline; /* Underlined on hover */
 }
 
+/* Adjusted margin for 'Back to all posts' link */
+.back-to-posts {
+    margin-top: 4rem; /* This value doubles the space */
+}
 
 
 @media screen and (max-width: 768px) {
