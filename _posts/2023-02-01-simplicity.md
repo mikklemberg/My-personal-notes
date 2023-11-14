@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Simplicity scales"
-date: 2023-11-10
+date: 2023-02-01
 ---
 
 
