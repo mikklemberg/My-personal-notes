@@ -38,13 +38,13 @@ p {
 }
 
 a {
-    color: #000;
+    color: #333;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #1F51FF;
+    color: #0B64FE;
 }
 
 .container {
@@ -76,6 +76,18 @@ a:hover {
     display: block;
     text-decoration: underline;
 }
+
+/* Content links */
+.post-content a {
+    color: #0B64FE; /* Set your preferred blue color */
+    text-decoration: none; /* No underline by default */
+}
+
+.post-content a:hover {
+    text-decoration: underline; /* Underlined on hover */
+}
+
+
 
 @media screen and (max-width: 768px) {
     h1 {
