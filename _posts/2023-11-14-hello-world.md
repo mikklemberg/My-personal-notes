@@ -1,5 +1,8 @@
-
-Hello World,
+---
+layout: post
+title: "Hello World"
+date: 2023-11-14
+---
 
 I've been thinking about starting to write for a long time, but I've always stuck with the idea that I've nothing to tell. Also my designer's taste got in the way, saying there was no good platform for writing.
 
