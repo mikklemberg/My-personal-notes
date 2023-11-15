@@ -47,7 +47,7 @@ a:hover {
 }
 
 /* Blockquote styling for distinction */
-.article blockquote {
+.content blockquote {
     border-left: 2px solid rgba(0, 0, 0, 0.33);
     background-color: #F5F5F5;
     margin: 40px 0;
@@ -55,7 +55,7 @@ a:hover {
     padding-left: 20px; /* Adds padding to the left of blockquotes */
 }
 
-.article p {
+.content p {
     margin-bottom: 27px;
 }
 
