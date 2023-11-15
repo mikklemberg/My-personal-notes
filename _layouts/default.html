@@ -14,8 +14,10 @@
         </header>
         <section class="posts">
             {% for post in site.posts %}
+                <div style="margin-bottom: 20px">
                 <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
                 <time datetime="{{ post.date | date_to_xmlschema }}" style="opacity: 0.60">{{ post.date | date: "%B %-d, %Y" }}</time>
+                </div>
             {% endfor %}
         </section>
         <footer style="margin-top: 50px">
