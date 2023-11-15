@@ -16,7 +16,7 @@
             {% for post in site.posts %}
             <article class="post">
                 <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
-                <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+                <time datetime="{{ post.date | date_to_xmlschema }}" style="opacity: 0.60">{{ post.date | date: "%B %-d, %Y" }}</time>
             </article>
             {% endfor %}
         </section>
