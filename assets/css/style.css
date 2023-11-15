@@ -1,4 +1,4 @@
-/* Global settings */
+
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +24,6 @@ h1, h2 {
     margin-top: 27px;
 }
 
-/* Link styles */
 a {
     color: #000;
     text-decoration: underline;
@@ -46,13 +45,16 @@ a:hover {
     margin-top: 25px;
 }
 
-/* Blockquote styling for distinction */
+
 .content blockquote {
     border-left: 2px solid rgba(0, 0, 0, 0.33);
     background-color: #F5F5F5;
-    margin: 10px 0;
+    margin-bottom: 27px;
     color: #000;
-    padding: 20px; /* Adds padding to the left of blockquotes */
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 1px;
 }
 
 .content p {
