@@ -10,7 +10,7 @@ Then, one Sunday, I finally did something that a lot of builders do: build their
 
 With the help from ChatGPT 4, I created a Jekyll-based website to publish Markdown files (I love [iA Writer](https://ia.net/writer)) via GitHub.
 
-This will be my learning log to document learnings from others. [^ [Reasearch as Understanding](https://kanjun.me/writing/research-as-understanding)]
+This will be my learning log to document learnings from others.
 
 "Learning happens when you understand something that someone else already understands."[1]
 
