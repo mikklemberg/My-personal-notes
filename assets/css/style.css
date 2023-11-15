@@ -48,13 +48,18 @@ a:hover {
 }
 
 /* Blockquote styling for distinction */
-blockquote .p {
+.article blockquote {
     border-left: 2px solid rgba(0, 0, 0, 0.33);
     background-color: #F5F5F5;
     margin: 40px 0;
     color: #000;
     padding-left: 20px; /* Adds padding to the left of blockquotes */
 }
+
+.article p {
+    margin-bottom: 20px;
+}
+
 
 /* Responsive adjustments for smaller screens */
 @media screen and (max-width: 768px) {
