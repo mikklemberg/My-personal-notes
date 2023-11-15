@@ -18,11 +18,10 @@ body {
     color: #000;
 }
 
-/* Adjusting spacing for headers */
 h1, h2 {
     font-weight: 600;
     font-size: 18px;
-    margin-top: 27px; /* Adds space after headers */
+    margin-top: 27px;
 }
 
 /* Link styles */
@@ -37,7 +36,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Main container styles */
 .container {
     width: 95%;
     max-width: 64ch;
@@ -45,13 +43,12 @@ a:hover {
     padding: 0 2rem;
 }
 
-/* Spacing between posts */
-.posts .post + .post {
-    margin-top: 25px; /* Space between consecutive posts */
+.posts {
+    margin-top: 25px;
 }
 
 /* Blockquote styling for distinction */
-.post-content blockquote {
+blockquote .p {
     border-left: 2px solid rgba(0, 0, 0, 0.33);
     background-color: #F5F5F5;
     margin: 40px 0;
