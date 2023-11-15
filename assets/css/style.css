@@ -35,33 +35,19 @@ a:hover {
 
 .container {
     width: 95%;
-    max-width: 63ch;
+    max-width: 64ch;
     margin: 100px auto;
     padding: 0 2rem;
-}
-
-.header, .footer {
-    text-align: left;
-    margin-bottom: 2.5rem;
 }
 
 .posts .post + .post {
     margin-top: 2.5rem;
 }
 
-
-.footer a {
-    display: block;
-}
-
-.back-to-posts {
-    margin-top: 75px;
-}
-
 .post-content blockquote {
-    border-left: 4px solid rgba(0, 0, 0, 0.36);
+    border-left: 2px solid rgba(0, 0, 0, 0.33);
     background-color: #fafafa;
-    margin: 1.5rem 0;
+    margin: 20px 0;
     color: #333;
 }
 
