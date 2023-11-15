@@ -16,5 +16,5 @@ This will be my learning log to document learnings from others. [^ [Reasearch as
 
 Now that the introductions are out of the way, I recently finished reading "[Marx in the Anthropocene](https://www.cambridge.org/core/books/marx-in-the-anthropocene/D58765916F0CB624FCCBB61F50879376)".
 
-[1] [Reasearch as Understanding](https://kanjun.me/writing/research-as-understanding)]
+[1] [Reasearch as Understanding](https://kanjun.me/writing/research-as-understanding)
  
