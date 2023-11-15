@@ -21,11 +21,9 @@ h1, h2 {
     font-weight: 500;
 }
 
-p {
-    margin: 0 0 2.5rem;
-}
 
 a {
+    color: #333;
     text-decoration: underline;
     transition: color 0.3s ease;
 }
