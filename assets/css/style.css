@@ -10,11 +10,10 @@ html {
     font-size: 18px;
     line-height: 145%;
     letter-spacing: -0.24px;
-    
 }
 
 body {
-    background-color: fafafa;
+    background-color: #fafafa;
     color: #333;
 }
 
@@ -22,26 +21,25 @@ h1, h2 {
     font-weight: 500;
 }
 
-
 p {
     margin: 0 0 2.5rem;
 }
 
 a {
-    color: #333;
     text-decoration: underline;
     transition: color 0.3s ease;
 }
 
 a:hover {
     color: #0B64FE;
+    text-decoration: underline;
 }
 
 .container {
-    width: 100%;
-    max-width: 66rem;
-    margin: 0 auto;
-    padding: 10rem 1rem;
+    width: 95%;
+    max-width: 63ch;
+    margin: 100px auto;
+    padding: 0 2rem;
 }
 
 .header, .footer {
@@ -53,36 +51,27 @@ a:hover {
     margin-top: 2.5rem;
 }
 
-.posts h2 + time {
-    margin-top: 0.2rem; /* Reduced space between title and date */
-}
-
-.footer {
-    margin-top: 7.5rem;
-    padding: 2rem 0;
-}
 
 .footer a {
     display: block;
 }
 
-
 .back-to-posts {
-    margin-top: 8rem; /* This value doubles the space */
+    margin-top: 75px;
 }
 
 .post-content blockquote {
     border-left: 4px solid rgba(0, 0, 0, 0.36);
     background-color: #fafafa;
     margin: 1.5rem 0;
-    padding: 2rem;
     color: #333;
 }
 
-
 @media screen and (max-width: 768px) {
-
     .container {
-        padding: 5rem 2rem;
+        width: 95%;
+        padding: 100px 2%;
+        max-width: none;
     }
+
 }
