@@ -41,7 +41,7 @@ a:hover {
 }
 
 .posts .post + .post {
-    margin-top: 2.5rem;
+    margin-top: 50px;
 }
 
 .post-content blockquote {
