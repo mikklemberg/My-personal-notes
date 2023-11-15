@@ -8,14 +8,14 @@
 </head>
 <body>
     <div class="container">
-        <header class="header" style="margin-bottom: 5rem">
-            <p style="margin: 0 0 0.5rem">Mikk Lemberg</p>
+        <header>
+            <p>Mikk Lemberg</p>
             <p style="opacity: 0.60">As a (systems) designer and avid cyclist, I have found myself wondering about broader aspects for improving urban environment and ensuring everyone has equal opportunities for a fulfilling life.</p>
         </header>
         <section class="posts">
             {% for post in site.posts %}
             <article class="post">
-                <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+                <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
                 <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
             </article>
             {% endfor %}
