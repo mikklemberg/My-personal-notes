@@ -12,9 +12,9 @@ With the help from ChatGPT 4, I created a Jekyll-based website to publish Markdo
 
 This will be my learning log to document learnings from others.
 
-> "Learning happens when you understand something that someone else already understands."[1]
+> "Learning happens when you understand something that someone else already understands."
+_Via [Reasearch as Understanding](https://kanjun.me/writing/research-as-understanding)_
 
 Now that the introductions are out of the way, I recently finished reading "[Marx in the Anthropocene](https://www.cambridge.org/core/books/marx-in-the-anthropocene/D58765916F0CB624FCCBB61F50879376)". And I have many thoughts.
 
-[1] [Reasearch as Understanding](https://kanjun.me/writing/research-as-understanding)
  
