@@ -62,6 +62,17 @@ a:hover {
     margin-bottom: 27px;
 }
 
+ul {
+    list-style-type: disc; /* Default bullet style */
+    padding-left: 20px; /* Indent the list */
+    margin-bottom: 27px; /* Space after the list */
+}
+
+ol {
+    list-style-type: decimal; /* Default numbered style */
+    padding-left: 20px; /* Indent the list */
+    margin-bottom: 27px; /* Space after the list */
+}
 
 /* Responsive adjustments for smaller screens */
 @media screen and (max-width: 768px) {
