@@ -20,7 +20,8 @@ As Saito points out, this pursuit of relentless productivity and growth inevitab
 
 The fundamental issue behind the climate crisis is the attempt to amass endless wealth on a planet with limited resources.
 
-* *
+--
+
 One of the most striking side lessons for me was Saito's insight into capitalism's role in turning what were once luxuries into perceived necessities.
 
 The idea that capitalism turns luxuries into necessities and promotes an 'imperial mode of living' alludes to the way capitalist modes of production and consumption have developed, setting new living standards that far exceed mere survival.
