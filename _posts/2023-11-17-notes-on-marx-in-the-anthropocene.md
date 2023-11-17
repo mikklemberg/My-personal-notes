@@ -1,6 +1,7 @@
+
 ---
 layout: post
-title: "Notes on the "Marx in the Anthropocene""
+title: "Notes on the "Marx in the Anthropocene"
 date: 2023-11-17
 ---
 
