@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Notes on the Marx in the Anthropocene"
