@@ -62,16 +62,23 @@ a:hover {
     margin-bottom: 27px;
 }
 
+/* Unordered List */
 ul {
-    list-style-type: disc; /* Default bullet style */
+    list-style-type: disc; /* Default bullet style, can also be 'circle' or 'square' */
     padding-left: 20px; /* Indent the list */
     margin-bottom: 27px; /* Space after the list */
 }
 
+/* Ordered List */
 ol {
     list-style-type: decimal; /* Default numbered style */
     padding-left: 20px; /* Indent the list */
-    margin-bottom: 27px; /* Space after the list */
+    margin-bottom: 17px; /* Space after the list */
+}
+
+/* List items */
+li {
+    margin-bottom: 10px; /* Space between list items */
 }
 
 /* Responsive adjustments for smaller screens */
