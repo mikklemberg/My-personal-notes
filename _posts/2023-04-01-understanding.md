@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Understanding makes permanent change possible"
-date: 2023-0-29
+date: 2023-04-01
 ---
 
 Creating systemic change in a complex system requires deep understanding. The understanding phase must uncover people's unmet needs and desires rather than focusing on decisions or outcomes.
