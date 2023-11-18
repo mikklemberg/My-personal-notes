@@ -28,7 +28,7 @@ The idea that capitalism turns luxuries into necessities and promotes an 'imperi
 
 As time passes, items and services previously seen as luxurious gradually become seen as essential. This change in mindset is propelled by the inherent drive of capitalism to constantly find new markets and boost consumption levels:
 
-- **Consumer Culture:** Capitalism promotes consumer culture where people buy more than necessary for survival..
+- **Consumer Culture:** Capitalism promotes consumer culture where people buy more than necessary for survival.
 - **Artificial Needs:** Capitalism creates unnecessary desires through advertising and media.
 - **Credit Systems:** Credit systems allow spending beyond means, pushing a higher standard of living.
 - **Environmental Impact:** More consumption leads to more resource use and environmental harm. For example, the demand for certain "necessary" consumer electronics has led to mining practices that harm ecosystems and communities.
