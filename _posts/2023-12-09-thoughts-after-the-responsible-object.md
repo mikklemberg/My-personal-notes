@@ -4,7 +4,7 @@ title: "Thoughts after reading The Responsible Object"
 date: 2023-12-09
 ---
 
-I read the book "[The Responsible Object: A History of Design Ideology for the Future](https://valiz.nl/en/publications/the-responsible-object)" It is not a traditional book with a clear storyline, but a collection of 20 essays by different authors that look at the Western design tradition of the last 150 years in the context of socially conscious design.
+I read the book "[The Responsible Object: A History of Design Ideology for the Future](https://valiz.nl/en/publications/the-responsible-object)." It is not a traditional book with a clear storyline, but a collection of 20 essays by different authors that look at the Western design tradition of the last 150 years in the context of socially conscious design.
 
 Editor Marjanne Van Helvert argues for a design philosophy that focuses on the well-being of society and the environment. She suggests that true innovation in design is not about creating new products, but about rethinking the systems that are responsible for the status quo of design practice.
 
@@ -44,7 +44,7 @@ Sustainable design is social design, and a socially responsible future is a sust
 ## IV
 Richard Buckminster Fuller's goal of "doing more and more with less and less until eventually you can do everything with nothing" summarises today's goal of reducing the need for energy, recycling and reuse and ultimately doing more (well-being of society and the environment) with less.
 
-This idea was taken further with [E. F. Schumacher's book "Small is Beautiful](https://en.wikipedia.org/wiki/Small_Is_Beautiful)" This movement promotes environmentally friendly solutions on a smaller scale such as steam engines, solar stoves and homemade wind turbines.
+This idea was taken further with [E. F. Schumacher's book "Small is Beautiful](https://en.wikipedia.org/wiki/Small_Is_Beautiful)." This movement promotes environmentally friendly solutions on a smaller scale such as steam engines, solar stoves and homemade wind turbines.
 
 
 My most important realisation is that I (and designers) should trust in integrating ideals of equality and sustainability into design work in order to break down the systems of the status quo that are responsible for the problems we currently face. After breaking down these systems, we should focus on creating small and accessible solutions with big impact.
