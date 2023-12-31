@@ -86,6 +86,12 @@ li {
     margin-bottom: 10px; /* Space between list items */
 }
 
+/* Divider */
+hr {
+    color: f5f5f5;
+    margin-bottom: 10px;
+}
+
 /* Responsive adjustments for smaller screens */
 @media screen and (max-width: 768px) {
     .container {
