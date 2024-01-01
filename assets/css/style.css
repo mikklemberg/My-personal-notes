@@ -6,16 +6,16 @@
 }
 
 html {
-    font-family: system-ui, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 145%;
     letter-spacing: -0.008em;
 }
 
 body {
     background-color: #fff;
-    color: #282a30;
+    color: #000000;
 }
 
 h1, h2 {
@@ -32,7 +32,7 @@ a {
 }
 
 a:hover {
-    color: #0B64FE;
+    color: #007aff;
     text-decoration: underline;
 }
 
@@ -54,9 +54,9 @@ b {
 
 .content blockquote {
     border-left: 2px solid rgba(0, 0, 0, 0.33);
-    background-color: #f5f5f5;
+    background-color: #e5e5ea;
     margin-bottom: 27px;
-    color: #282a30;
+    color: #000;
     padding-left: 20px;
     padding-right: 10px;
     padding-top: 10px;
@@ -88,7 +88,7 @@ li {
 
 /* Divider */
 hr {
-    color: #f5f5f5;
+    color: #aeaeb2;
     margin-bottom: 27px;
     border-top-style: none;
 }
