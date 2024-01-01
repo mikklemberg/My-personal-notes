@@ -89,7 +89,8 @@ li {
 /* Divider */
 hr {
     color: #f5f5f5;
-    margin-bottom: 10px;
+    margin-bottom: 27px;
+    border-top-style: none;
 }
 
 /* Responsive adjustments for smaller screens */
