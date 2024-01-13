@@ -10,7 +10,7 @@ During that time, I have read over 16 books. I have summarized some of them into
 
 Reading all those books has clarified what we need to do to address climate disasters and why. I also understand the underlying currents that have brought us to this point. I started wondering about how to bring all these ideas and changes to life.
 
-I was inspired by “[Life-sized City: Lessons for Futureproofing Our Urban World}](https://youtu.be/oJzA0Aiw4kI)." There is also a talk by [Dan Hill on strategic design](https://www.youtube.com/watch?v=vo6hC-MaEJQ) that encourages thinking more systematically and trying to lift all boats, if possible, by dealing with broader systems.
+I was inspired by “[Life-sized City: Lessons for Futureproofing Our Urban World](https://youtu.be/oJzA0Aiw4kI)." There is also a talk by [Dan Hill on strategic design](https://www.youtube.com/watch?v=vo6hC-MaEJQ) that encourages thinking more systematically and trying to lift all boats, if possible, by dealing with broader systems.
 
 At the moment, I am less fascinated by taking the entrepreneurial path to fix a specific problem or ignite change with some initiative. Moreover, the private sector cannot do the job of the public sector. I am curious about systemic change, which could come from different levels of government through policy or politics.
 
