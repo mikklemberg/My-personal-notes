@@ -43,13 +43,12 @@ b {
 .container {
     width: 95%;
     max-width: 576px;
-    margin: 48px 48px;
+    margin: 24px 24px;
 }
 
 .posts {
     margin-top: 24px;
 }
-
 
 .content blockquote {
     border-left: 2px solid rgba(0, 0, 0, 0.33);
@@ -71,7 +70,6 @@ ul {
     padding-left: 24px;
     margin-bottom: 24px;
 }
-
 
 ol {
     list-style-type: decimal;
