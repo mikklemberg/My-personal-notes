@@ -12,18 +12,18 @@
     <div class="container">
         <header>
             <p>Mikk Lemberg</p>
-            <p style="color: #3c4149">My notes about design, human-scale cities and equal access to a fulfilling life</p>
+            <p style="color: #6f6e77">My notes about design, human-scale cities and equal access to a fulfilling life</p>
         </header>
         <section class="posts">
             {% for post in site.posts %}
                 <div style="margin-bottom: 20px">
                 <p><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
-                <time datetime="{{ post.date | date_to_xmlschema }}" style="color: #3c4149">{{ post.date | date: "%B %-d, %Y" }}</time>
+                <time datetime="{{ post.date | date_to_xmlschema }}" style="color: #6f6e77">{{ post.date | date: "%B %-d, %Y" }}</time>
                 </div>
             {% endfor %}
         </section>
         <footer style="margin-top: 50px">
-            <p style="color: #3c4149">Links</p>
+            <p style="color: #6f6e77">Links</p>
             <p><a href="https://mikklemberg.ee">Professional resume</a></p>
             <p><a href="https://posts.cv/mikk">Posts.cv</a></p>
             <p><a href="mailto:mikklemberg@icloud.com">mikklemberg@icloud.com</a></p>
