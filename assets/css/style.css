@@ -9,7 +9,7 @@ html {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 145%;
+    line-height: 155%;
 }
 
 body {
@@ -28,11 +28,15 @@ a {
     color: #282a30;
     text-decoration: underline;
     transition: color 0.3s ease;
+    text-underline-offset: 4px!important;
+    text-decoration-thickness: 1px!important;
 }
 
 a:hover {
     color: #007aff;
     text-decoration: underline;
+    text-underline-offset: 4px!important;
+    text-decoration-thickness: 1px!important;
 }
 
 strong,
@@ -82,7 +86,7 @@ li {
 }
 
 hr {
-    color: rgb(233, 232, 234);
+    color: #f4f2f4;
     margin-bottom: 24px;
     border-top-style: none;
 }
