@@ -28,14 +28,14 @@ a {
     color: #282a30;
     text-decoration: underline;
     transition: color 0.3s ease;
-    text-underline-offset: 4px!important;
+    text-underline-offset: 2px!important;
     text-decoration-thickness: 1px!important;
 }
 
 a:hover {
     color: #007aff;
     text-decoration: underline;
-    text-underline-offset: 4px!important;
+    text-underline-offset: 2px!important;
     text-decoration-thickness: 1px!important;
 }
 
