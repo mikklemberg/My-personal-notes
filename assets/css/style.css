@@ -14,7 +14,7 @@ html {
 
 body {
     background-color: #fff;
-    color: #000000;
+    color: #282a30;
 }
 
 h1, h2 {
@@ -25,7 +25,7 @@ h1, h2 {
 }
 
 a {
-    color: #000;
+    color: #282a30;
     text-decoration: underline;
     transition: color 0.3s ease;
 }
@@ -51,10 +51,10 @@ b {
 }
 
 .content blockquote {
-    border-left: 2px solid rgba(0, 0, 0, 0.33);
-    background-color: #e5e5ea;
-    margin-bottom: 27px;
-    color: #000;
+    border-left: 2px solid rgb(233,232,234);
+    background-color: #f9f8f9;
+    margin-bottom: 24px;
+    color: #282a30;
     padding-left: 20px;
     padding-right: 10px;
     padding-top: 10px;
@@ -82,15 +82,15 @@ li {
 }
 
 hr {
-    color: #e5e5ea;
+    color: rgb(233, 232, 234);
     margin-bottom: 24px;
     border-top-style: none;
 }
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 95%;
-        padding: 24px 2%;
+        width: 96%;
+        padding: 24px 4px 48px 4px;
         max-width: 576px;
     }
 }
