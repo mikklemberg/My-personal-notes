@@ -98,3 +98,13 @@ hr {
         max-width: 576px;
     }
 }
+
+
+img {
+    margin: auto;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    border-radius: .25rem;
+    display: block;
+    max-width: 100% !important;
+}
