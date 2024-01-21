@@ -19,7 +19,7 @@ System innovation requires radical leaps, not just small steps.
 
 Now, we might ask what's the reason we're not taking more significant leaps. I believe it's pretty simple.
 
-### Politicians aren't incentivised to drive progress.
+**Politicians aren't incentivised to drive progress.**
 
 [Politicians are greatly incentivised to do as little as possible if it doesn't get them in trouble.](https://noahpinion.substack.com/p/interview-saikat-chakrabarti-creator)
 
