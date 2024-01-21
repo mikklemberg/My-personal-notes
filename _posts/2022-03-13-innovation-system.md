@@ -11,8 +11,6 @@ It helped clarify my issue with the politics or public sector leadership.
 
 ![innovation within the system vs innovation to create the new system](/assets/innovation-system-vs-new.png){:class="img-responsive"}
 
-innovation within the system vs innovation to create the new system
-
 A mass of broadcasted innovation is usually about prolonging the status quo and raising productivity — not new breakthroughs. Yet this won't allow societies to create a new, better, different way of life.
 
 System innovation requires radical leaps, not just small steps. 
