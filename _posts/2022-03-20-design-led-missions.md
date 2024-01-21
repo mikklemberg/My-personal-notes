@@ -5,7 +5,7 @@ date: 2022-03-20
 ---
 Below is a conclusion of the [Danish Design Centre's mission playbook](https://ddc.dk/tools/missions-playbook-a-design-driven-approach-to-launching-and-driving-missions/), which focuses primarily on **Mariana Mazzucato's Mission Economic book (2021)**. I read it but have not yet gotten around to writing notes about it. Even though it has been on my todo list for nine months.
 
-### Why missions and design?
+## Why missions and design?
 
 To achieve significant societal goals, missions must be targeted, measurable and time-bound.
 
@@ -18,7 +18,7 @@ Missions can therefore be seen as a design exercise. They won't emerge by themse
 ![design-led-missions](/assets/design-led-missions-1.jpeg)
 
 
-### How to do it?
+## How to do it?
 
 Missions call for a structure that balance both stability and agility:
 1. Create a governance structure for the mission work that leaves room for changing the project portfolio and the actor landscape as the mission progresses
