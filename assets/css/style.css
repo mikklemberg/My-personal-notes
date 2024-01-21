@@ -6,16 +6,24 @@
 }
 
 html {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "system-ui, sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 155%;
+    font-size: 1rem;
+    line-height: 1.55rem;
 }
 
 body {
     background-color: #fff;
     color: #282a30;
 }
+
+.container {
+    width: 100%;
+    max-width: 36rem;
+    margin: 0 auto;
+    padding: 5rem 1rem;
+}
+
 
 h1, h2 {
     font-weight: 500;
@@ -44,11 +52,6 @@ b {
     font-weight: 500;
 }
 
-.container {
-    width: 95%;
-    max-width: 576px;
-    margin: 24px 24px;
-}
 
 .posts {
     margin-top: 24px;
@@ -93,9 +96,10 @@ hr {
 
 @media screen and (max-width: 768px) {
     .container {
-        width: 96%;
-        padding: 24px 0px 48px 0px;
-        max-width: 576px;
+        width: 100;
+        margin: 0 auto;
+        padding: 5rem 1rem;
+        max-width: 36rem;
     }
 }
 
