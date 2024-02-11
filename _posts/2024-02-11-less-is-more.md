@@ -48,7 +48,7 @@ Our economy and politics heavily rely on the concept of growth, which has become
 
 ## Growth can be a goal, but not for high-income countries
 
-Most global South countries need to increase resource use to meet human needs, while staying within their fair share of planetary boundaries.
+Most Global South countries need to increase resource use to meet human needs, while staying within their fair share of planetary boundaries.
 
 The problem is high-income countries.
 
