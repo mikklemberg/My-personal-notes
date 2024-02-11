@@ -4,8 +4,6 @@ title: "Notes on the Less is More"
 date: 2024-02-11
 ---
 
-# Notes on the Less is More
-
 Here are my notes and thoughts on Jason Hickel’s book Less is More.
 
 It has an ambitious subtitle: How Degrowth Will Save the World.
