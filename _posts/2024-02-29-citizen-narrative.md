@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "From consumers to changemakers"
-date: 2024-03-01
+date: 2024-0-01
 ---
 
 A few weeks ago, [I wrote about focusing on books dealing with systemic change](https://blog.mikklemberg.ee/18-months-reading.html). Usually, they're driven by various levels of government through politics.
