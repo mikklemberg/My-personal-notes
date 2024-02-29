@@ -4,9 +4,9 @@ title: "From consumers to changemakers"
 date: 2024-03-01
 ---
 
-A few weeks ago, I wrote about focusing on books dealing with systemic change (https://blog.mikklemberg.ee/18-months-reading.html). Usually, they're driven by various levels of government through politics.
+A few weeks ago, [I wrote about focusing on books dealing with systemic change](https://blog.mikklemberg.ee/18-months-reading.html). Usually, they're driven by various levels of government through politics.
 
-Since then, I've come across a fresh perspective that resonates profoundly, mainly through the book "Citizens (https://www.goodreads.com/book/show/60651047-citizens)" and Jon Alexander's articles here (https://psyche.co/guides/how-to-be-an-engaged-citizen-and-make-meaningful-social-change) and here (https://www.bbc.com/future/article/20220803-citizen-future-why-we-need-a-new-story-of-self-and-society).
+Since then, I've come across a fresh perspective that resonates profoundly, mainly through the book ["Citizens"](https://www.goodreads.com/book/show/60651047-citizens) and Jon Alexander's articles [here](https://psyche.co/guides/how-to-be-an-engaged-citizen-and-make-meaningful-social-change) and [here](https://www.bbc.com/future/article/20220803-citizen-future-why-we-need-a-new-story-of-self-and-society).
 
 —
 
@@ -32,7 +32,7 @@ But when we understand these deep narratives, we can see beyond their limitation
 
 They propose a "citizens' story" in which we work together to solve global problems.
 
-Changing the narrative can be a decisive response to the climate catastrophe by reshaping how society perceives and addresses environmental challenges. Changing the narrative can shift collective behavior and policy, which is essential to effectively tackling the climate crisis. (https://blog.mikklemberg.ee/narratives.html)
+Changing the narrative can be a decisive response to the climate catastrophe by reshaping how society perceives and addresses environmental challenges. [Changing the narrative can shift collective behavior and policy, which is essential to effectively tackling the climate crisis.](https://blog.mikklemberg.ee/narratives.html)
 
 It's exciting that if we see our current crisis as a crisis of narrative, we can recognize that we all have the power to change it. This power goes far beyond voting in the supermarket or at the ballot box.
 
