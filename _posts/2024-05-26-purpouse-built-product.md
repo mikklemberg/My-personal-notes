@@ -1,3 +1,8 @@
+---
+layout: post
+title: "Purpose-built product"
+date: 2024-05-26
+---
 
 There was [a discussion on Twitter about opinionated software](https://x.com/brian_lovin/status/1793132504033157218) that got me thinking about design-led companies.
 
@@ -13,4 +18,4 @@ To develop purpose-built software, you need to understand the people who use it.
 
 By staying connected to your users and putting their needs first, you can develop software that not only solves problems, but also brings joy and helps people.
 
-Purpose-built software is a testament to thoughtful design and [a deep commitment to usability](https://blog.mikklemberg.ee/design-beautiful-business.html).
+Purpose-built product is a testament to thoughtful design and [a deep commitment to usability](https://blog.mikklemberg.ee/design-beautiful-business.html).
